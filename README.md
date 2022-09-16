@@ -3,7 +3,7 @@
   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VictorXdAugusto&layout=compact&langs_count=16&theme=dracula"/>
 </div>
 
-##  **Social Medias** :iphone: 
+##  **Redes Socias** :iphone: 
 
 <br>
 <div>
