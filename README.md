@@ -13,7 +13,7 @@ distribuído.
 `Go` `PostgreSQL` `Kubernetes` `Docker` `GCP (Pub/Sub, GKE, Cloud Storage)` `GraphQL` `Hasura` `REST`
 
 **Observabilidade e CI/CD**
-`OpenTelemetry` `Jaeger` `GitLab CI/CD` `SonarQube` `Linux`
+`OpenTelemetry` `Jaeger` `GitLab CI/CD` `SonarQube`
 
 **Também uso**
 `TypeScript` `Python` `Redis` `PostGIS`
