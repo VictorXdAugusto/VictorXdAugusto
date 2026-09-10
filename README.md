@@ -2,28 +2,33 @@
 
 Engenheiro de software back-end. Go, microsserviços e sistemas distribuídos.
 
-Trabalho no núcleo de uma plataforma de saúde com 13 microsserviços em produção, no serviço de
-integrações com laboratórios e sistemas EHR: pipelines assíncronos com Pub/Sub, PostgreSQL,
-GraphQL, Kubernetes e tracing distribuído. A parte que mais me ensina é a menos glamourosa —
-incidente em produção, causa raiz, e correção com revert testado antes de rodar.
+Trabalho com backend em produção: APIs REST e GraphQL, arquitetura orientada a eventos com
+mensageria assíncrona (retry, dead-letter queue e contratos de evento versionados), modelagem e
+otimização de consultas em PostgreSQL, deploy em Kubernetes e observabilidade com tracing
+distribuído.
 
-**Stack principal**
+### Stack
 
-`Go` · `PostgreSQL` · `Kubernetes` · `Docker` · `GCP (Pub/Sub, GKE)` · `GraphQL / Hasura` · `OpenTelemetry` · `GitLab CI/CD`
+**Principal**
+`Go` `PostgreSQL` `Kubernetes` `Docker` `GCP (Pub/Sub, GKE, Cloud Storage)` `GraphQL` `Hasura` `REST`
 
-**Alguns repositórios**
+**Observabilidade e CI/CD**
+`OpenTelemetry` `Jaeger` `GitLab CI/CD` `SonarQube` `Linux`
+
+**Também uso**
+`TypeScript` `Python` `Redis` `PostGIS`
+
+**Arquitetura**
+Microsserviços, event-driven, Clean Architecture, DDD, testes table-driven e de contrato.
+
+### Repositórios
 
 | | |
 |---|---|
-| [exam-processing-service](https://github.com/VictorXdAugusto/exam-processing-service) | Processamento assíncrono de exames em Go — Clean Architecture, worker pool com goroutines e channels, PostgreSQL, Docker |
-| [engineer-test](https://github.com/VictorXdAugusto/engineer-test) | Geolocalização em tempo real — PostGIS para consulta geoespacial, Redis Streams para eventos, Swagger |
-| [clean-architecture-golang](https://github.com/VictorXdAugusto/clean-architecture-golang) | API REST em Go com injeção de dependência via `google/wire` e worker desacoplado |
+| [exam-processing-service](https://github.com/VictorXdAugusto/exam-processing-service) | Processamento assíncrono em Go com worker pool de goroutines e channels. Clean Architecture, PostgreSQL com migrations, testes com mock, Docker. |
+| [geo-tracker-go](https://github.com/VictorXdAugusto/geo-tracker-go) | Geolocalização em tempo real. PostGIS para consulta geoespacial, Redis Streams para eventos, Swagger. |
+| [clean-architecture-golang](https://github.com/VictorXdAugusto/clean-architecture-golang) | API REST com injeção de dependência resolvida em tempo de compilação via google/wire. |
 
-**Como eu trabalho**
-
-Regra de negócio antes do código. Teste como gate bloqueante, não como sugestão. Produção só por
-protocolo: evidência, apply idempotente, revert testado. E quem implementa não revisa.
-
-**Contato**
+### Contato
 
 [LinkedIn](https://www.linkedin.com/in/victor-augusto-moraes-pereira-46a1a0205/) · augusto9055@gmail.com
