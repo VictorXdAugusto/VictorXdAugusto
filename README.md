@@ -25,6 +25,7 @@ Microsserviços, event-driven, Clean Architecture, DDD, testes table-driven e de
 
 | | |
 |---|---|
+| [payment-gateway-go](https://github.com/VictorXdAugusto/payment-gateway-go) | Gateway de pagamentos que não perde nem duplica dinheiro quando a rede falha. Idempotência, ledger de partida dobrada, outbox transacional, webhooks assinados e reconciliação com o PSP. PostgreSQL, Prometheus, Docker. |
 | [exam-processing-service](https://github.com/VictorXdAugusto/exam-processing-service) | Processamento assíncrono em Go com worker pool de goroutines e channels. Clean Architecture, PostgreSQL com migrations, testes com mock, Docker. |
 | [geo-tracker-go](https://github.com/VictorXdAugusto/geo-tracker-go) | Geolocalização em tempo real. PostGIS para consulta geoespacial, Redis Streams para eventos, Swagger. |
 | [clean-architecture-golang](https://github.com/VictorXdAugusto/clean-architecture-golang) | API REST com injeção de dependência resolvida em tempo de compilação via google/wire. |
